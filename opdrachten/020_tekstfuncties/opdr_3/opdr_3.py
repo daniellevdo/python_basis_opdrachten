@@ -10,8 +10,21 @@ b = "   ***"
 c = "  ******"
 d = " ********"
 e = "***********"
-#print("    ***")
-#print("    ***")
-#print("    ***")
+f = "    ***"
+g = "    ***"
+h ="    ***"
 
-boom = [print({a}\n{b}) ]
+boom = (f"{a}\n{b}\n{c}\n{d}\n{e}\n{f}\n{g}\n{h}")   
+for line in boom:
+    print("   ".join([line] * 5))
+
+tree = [
+    "   *   ",
+    "  ***  ",
+    " ***** ",
+    "*******",
+    "  ***  "
+]
+
+for line in tree:
+    print("   ".join([line] * 5))
