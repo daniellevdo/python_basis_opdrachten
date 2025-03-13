@@ -10,6 +10,10 @@ rivier_info = {
 }
 
 rivieren = list(rivier_info.keys())
+barf = rivieren [0] +" " + rivier_info ["rijn"] [1]
+print (barf.title())
+
+#print (rivieren.title())
 # rivieren is nu een list met alleen de riviernamen: ['rijn', 'maas', 'nijl']
 
 # Hier jouw code.....
