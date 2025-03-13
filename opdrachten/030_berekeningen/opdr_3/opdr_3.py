@@ -7,13 +7,13 @@
 
 
 x = 1
-y = 4 x<sup>3</sup> - 2 1<sup>2</sup> - 1
+y = 4*(x**3) - 2 *(x**2) - 1
 print(y)
 
 x = 2
-y = ...
-print( ... )
+y = 4*(x**3) - 2 *(x**2) - 1
+print(y)
 
 x = 0
-y = ...
-print( ... )
+y = 4*(x**3) - 2 *(x**2) - 1
+print(y)
