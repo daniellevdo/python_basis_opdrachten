@@ -6,7 +6,9 @@
 
 # Hier start de for-loop....
 
-my_list = []
-
 #for loop
 #if statement
+
+my_list = []
+print([y for y in range(1, 11) if y > 4])
+
