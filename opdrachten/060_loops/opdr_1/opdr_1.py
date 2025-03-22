@@ -6,4 +6,12 @@
 
 # Hier start de for-loop....
 
-my_list = []
+
+#my_list = []
+
+#for v in range (1, 11):
+#  my_list.append (v)
+#  print(my_list)
+
+my_list = [v for v in range(1, 11)]
+print(my_list)

@@ -8,3 +8,5 @@
 
 my_list = []
 
+my_list = [v for v in range(10, 60, 10)]
+print(my_list)
