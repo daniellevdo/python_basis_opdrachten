@@ -2,15 +2,16 @@
 # Naam student:
 # Groep:
 
-
+lijst_met_namen = []
 def volledige_naam(lijst_met_namen):
-    # hier komt jouw code
-    # Het woordje pass mag je weghalen
-    pass
-
+    lijst_met_namen.append(namen.title().rstrip().strip())
+    if tussenvoegsel == "":
+        print({voornaam}, (achternaam))
+    else:
+        print()
 
 namen = [
-    {"voornaam": "Willem", "tussenvoegsel": "van", "achternaam": "Dijk"},
+    {"voornaam": {voornaam=}"Willem", "tussenvoegsel": "van", "achternaam": "Dijk"},
     {"voornaam": "Klaas", "tussenvoegsel": "", "achternaam": "Wopstra"},
     {"voornaam": "Miep", "tussenvoegsel": "van der", "achternaam": "Plas"},
     {"voornaam": "Carla", "tussenvoegsel": "", "achternaam": "Hoogvliet"},
